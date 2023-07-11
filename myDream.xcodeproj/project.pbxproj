@@ -1,0 +1,969 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		537A6E5A54E6287CC572E79D /* libPods-myDreamUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CAFAC5336204ED7AC9C05DF /* libPods-myDreamUITests.a */; };
+		7FF3F6EA2D6EDD43E937E0A2 /* libPods-myDreamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C81694B74995EA82ACBAB217 /* libPods-myDreamTests.a */; };
+		84C6D5282A053BD300B37B20 /* SSSTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6D5272A053BD300B37B20 /* SSSTableViewCell.swift */; };
+		84C6D52A2A053C0F00B37B20 /* SSSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C6D5292A053C0F00B37B20 /* SSSViewController.swift */; };
+		8E3DA4A329D734DE0022EC31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3DA4A229D734DE0022EC31 /* AppDelegate.swift */; };
+		8E3DA4A529D734DE0022EC31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3DA4A429D734DE0022EC31 /* SceneDelegate.swift */; };
+		8E3DA4A729D734DE0022EC31 /* RegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3DA4A629D734DE0022EC31 /* RegisterPage.swift */; };
+		8E3DA4AA29D734DE0022EC31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3DA4A829D734DE0022EC31 /* Main.storyboard */; };
+		8E3DA4AC29D734E00022EC31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E3DA4AB29D734E00022EC31 /* Assets.xcassets */; };
+		8E3DA4AF29D734E00022EC31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3DA4AD29D734E00022EC31 /* LaunchScreen.storyboard */; };
+		8E3DA4BA29D734E00022EC31 /* myDreamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3DA4B929D734E00022EC31 /* myDreamTests.swift */; };
+		8E3DA4C429D734E00022EC31 /* myDreamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3DA4C329D734E00022EC31 /* myDreamUITests.swift */; };
+		8E3DA4C629D734E00022EC31 /* myDreamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3DA4C529D734E00022EC31 /* myDreamUITestsLaunchTests.swift */; };
+		8E3DA4D329D735300022EC31 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E3DA4D229D735300022EC31 /* GoogleService-Info.plist */; };
+		8E50C28929EFC4EE00806F00 /* dreamSave.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E50C28829EFC4EE00806F00 /* dreamSave.swift */; };
+		8E50C28B29EFC57C00806F00 /* recordedDreams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E50C28A29EFC57C00806F00 /* recordedDreams.swift */; };
+		8E5DEA1329DB632F000CAD41 /* ProfilimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5DEA1229DB632F000CAD41 /* ProfilimViewController.swift */; };
+		8E5DEA1629DB65D3000CAD41 /* myDream.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8E5DEA1429DB65D3000CAD41 /* myDream.xcdatamodeld */; };
+		8E5DEA1829DB65F1000CAD41 /* RuyaModelleri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5DEA1729DB65F1000CAD41 /* RuyaModelleri.swift */; };
+		8E5DEA1E29DB6C10000CAD41 /* tabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5DEA1D29DB6C10000CAD41 /* tabbarController.swift */; };
+		8E62F36B2A0C1448006B4DAB /* favoriSembollerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E62F36A2A0C1448006B4DAB /* favoriSembollerViewController.swift */; };
+		8E676A272A04222200CDE8F9 /* LauchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E676A262A04222200CDE8F9 /* LauchScreenViewController.swift */; };
+		8E7424E329E58E510062D391 /* DreamSaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7424E229E58E510062D391 /* DreamSaveViewController.swift */; };
+		8E97B4EF29D761D400213549 /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97B4EE29D761D400213549 /* LoginPageViewController.swift */; };
+		8E97B4F129D76AB100213549 /* SecilenMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E97B4F029D76AB100213549 /* SecilenMenuViewController.swift */; };
+		8ED079C729F32C6800BA5FCA /* RuyaSembollColletionViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED079C629F32C6800BA5FCA /* RuyaSembollColletionViewViewController.swift */; };
+		8ED079C929F330FD00BA5FCA /* SembolCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED079C829F330FD00BA5FCA /* SembolCollectionViewCell.swift */; };
+		8ED079CB29F336AF00BA5FCA /* SembolAramaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED079CA29F336AF00BA5FCA /* SembolAramaViewController.swift */; };
+		8EDB5D792A575FEC00A494E7 /* symbols.json in Resources */ = {isa = PBXBuildFile; fileRef = 8EDB5D782A575FEC00A494E7 /* symbols.json */; };
+		8EDB5D7C2A57608400A494E7 /* SymbolsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB5D7B2A57608400A494E7 /* SymbolsModel.swift */; };
+		8EDB5D7E2A5760B900A494E7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDB5D7D2A5760B900A494E7 /* DataManager.swift */; };
+		8EECF9572A426A7900D53192 /* merakEdilenlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EECF9562A426A7900D53192 /* merakEdilenlerViewController.swift */; };
+		8EF7A22E29F3FEA700318615 /* UIImageExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF7A22D29F3FEA700318615 /* UIImageExt.swift */; };
+		AAD1B9B9714EC96BFE6FD1D9 /* Pods_myDream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F963111EB80339BEEA4CBFFD /* Pods_myDream.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8E3DA4B629D734E00022EC31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3DA49729D734DE0022EC31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3DA49E29D734DE0022EC31;
+			remoteInfo = myDream;
+		};
+		8E3DA4C029D734E00022EC31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E3DA49729D734DE0022EC31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E3DA49E29D734DE0022EC31;
+			remoteInfo = myDream;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0077044E87621B5F99654171 /* Pods-myDream.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDream.debug.xcconfig"; path = "Target Support Files/Pods-myDream/Pods-myDream.debug.xcconfig"; sourceTree = "<group>"; };
+		1660F7E0FCD67C77971DEB84 /* Pods-myDreamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDreamUITests.debug.xcconfig"; path = "Target Support Files/Pods-myDreamUITests/Pods-myDreamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		38026D2E578A3454E9A76A09 /* Pods-myDreamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDreamTests.release.xcconfig"; path = "Target Support Files/Pods-myDreamTests/Pods-myDreamTests.release.xcconfig"; sourceTree = "<group>"; };
+		3CAFAC5336204ED7AC9C05DF /* libPods-myDreamUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myDreamUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C6D5272A053BD300B37B20 /* SSSTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSSTableViewCell.swift; sourceTree = "<group>"; };
+		84C6D5292A053C0F00B37B20 /* SSSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SSSViewController.swift; sourceTree = "<group>"; };
+		8E3DA49F29D734DE0022EC31 /* myDream.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myDream.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3DA4A229D734DE0022EC31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8E3DA4A429D734DE0022EC31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8E3DA4A629D734DE0022EC31 /* RegisterPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterPage.swift; sourceTree = "<group>"; };
+		8E3DA4AB29D734E00022EC31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E3DA4AE29D734E00022EC31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8E3DA4B029D734E00022EC31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E3DA4B529D734E00022EC31 /* myDreamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myDreamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3DA4B929D734E00022EC31 /* myDreamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDreamTests.swift; sourceTree = "<group>"; };
+		8E3DA4BF29D734E00022EC31 /* myDreamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myDreamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E3DA4C329D734E00022EC31 /* myDreamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDreamUITests.swift; sourceTree = "<group>"; };
+		8E3DA4C529D734E00022EC31 /* myDreamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myDreamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8E3DA4D229D735300022EC31 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "myDream/GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8E3DA4DE29D7399F0022EC31 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-BoldItalic.ttf"; path = "Poppins/Poppins-BoldItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4DF29D7399F0022EC31 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraBold.ttf"; path = "Poppins/Poppins-ExtraBold.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4E029D7399F0022EC31 /* Poppins-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Black.ttf"; path = "Poppins/Poppins-Black.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4E129D7399F0022EC31 /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraLightItalic.ttf"; path = "Poppins/Poppins-ExtraLightItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4E229D7399F0022EC31 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBold.ttf"; path = "Poppins/Poppins-SemiBold.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4E329D7399F0022EC31 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "Poppins/Poppins-Medium.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4E429D7399F0022EC31 /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraBoldItalic.ttf"; path = "Poppins/Poppins-ExtraBoldItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4E529D7399F0022EC31 /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-BlackItalic.ttf"; path = "Poppins/Poppins-BlackItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4E629D7399F0022EC31 /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ExtraLight.ttf"; path = "Poppins/Poppins-ExtraLight.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4E729D7399F0022EC31 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-MediumItalic.ttf"; path = "Poppins/Poppins-MediumItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4E829D7399F0022EC31 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Regular.ttf"; path = "Poppins/Poppins-Regular.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4E929D7399F0022EC31 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Thin.ttf"; path = "Poppins/Poppins-Thin.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4EA29D7399F0022EC31 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-ThinItalic.ttf"; path = "Poppins/Poppins-ThinItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4EB29D7399F0022EC31 /* Poppins-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Italic.ttf"; path = "Poppins/Poppins-Italic.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4EC29D7399F0022EC31 /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-LightItalic.ttf"; path = "Poppins/Poppins-LightItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4ED29D7399F0022EC31 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "Poppins/Poppins-Light.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4EE29D7399F0022EC31 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Poppins/Poppins-Bold.ttf"; sourceTree = SOURCE_ROOT; };
+		8E3DA4EF29D7399F0022EC31 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-SemiBoldItalic.ttf"; path = "Poppins/Poppins-SemiBoldItalic.ttf"; sourceTree = SOURCE_ROOT; };
+		8E4A55D62A5B69EC008F210B /* myDreamRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = myDreamRelease.entitlements; sourceTree = "<group>"; };
+		8E50C28829EFC4EE00806F00 /* dreamSave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dreamSave.swift; sourceTree = "<group>"; };
+		8E50C28A29EFC57C00806F00 /* recordedDreams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recordedDreams.swift; sourceTree = "<group>"; };
+		8E5DEA1229DB632F000CAD41 /* ProfilimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilimViewController.swift; sourceTree = "<group>"; };
+		8E5DEA1529DB65D3000CAD41 /* myDream.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = myDream.xcdatamodel; sourceTree = "<group>"; };
+		8E5DEA1729DB65F1000CAD41 /* RuyaModelleri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuyaModelleri.swift; sourceTree = "<group>"; };
+		8E5DEA1D29DB6C10000CAD41 /* tabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabbarController.swift; sourceTree = "<group>"; };
+		8E62F36A2A0C1448006B4DAB /* favoriSembollerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriSembollerViewController.swift; sourceTree = "<group>"; };
+		8E676A262A04222200CDE8F9 /* LauchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LauchScreenViewController.swift; sourceTree = "<group>"; };
+		8E7424E229E58E510062D391 /* DreamSaveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamSaveViewController.swift; sourceTree = "<group>"; };
+		8E97B4EE29D761D400213549 /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		8E97B4F029D76AB100213549 /* SecilenMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecilenMenuViewController.swift; sourceTree = "<group>"; };
+		8ED079C629F32C6800BA5FCA /* RuyaSembollColletionViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuyaSembollColletionViewViewController.swift; sourceTree = "<group>"; };
+		8ED079C829F330FD00BA5FCA /* SembolCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SembolCollectionViewCell.swift; sourceTree = "<group>"; };
+		8ED079CA29F336AF00BA5FCA /* SembolAramaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SembolAramaViewController.swift; sourceTree = "<group>"; };
+		8ED145E62A5224ED006C1B94 /* myDream.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = myDream.entitlements; sourceTree = "<group>"; };
+		8EDB5D6B2A5754BE00A494E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EDB5D752A575DB700A494E7 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		8EDB5D762A575DD500A494E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		8EDB5D772A575DD600A494E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8EDB5D782A575FEC00A494E7 /* symbols.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = symbols.json; sourceTree = "<group>"; };
+		8EDB5D7B2A57608400A494E7 /* SymbolsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolsModel.swift; sourceTree = "<group>"; };
+		8EDB5D7D2A5760B900A494E7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		8EECF9562A426A7900D53192 /* merakEdilenlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = merakEdilenlerViewController.swift; sourceTree = "<group>"; };
+		8EF7A22D29F3FEA700318615 /* UIImageExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExt.swift; sourceTree = "<group>"; };
+		9EE59B59430C1F8B3DE69407 /* Pods-myDreamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDreamTests.debug.xcconfig"; path = "Target Support Files/Pods-myDreamTests/Pods-myDreamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C06D9515F4277E7F611D4F7D /* Pods-myDream-myDreamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDream-myDreamUITests.debug.xcconfig"; path = "Target Support Files/Pods-myDream-myDreamUITests/Pods-myDream-myDreamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C455F48746594337C6D918BE /* Pods-myDream.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDream.release.xcconfig"; path = "Target Support Files/Pods-myDream/Pods-myDream.release.xcconfig"; sourceTree = "<group>"; };
+		C81694B74995EA82ACBAB217 /* libPods-myDreamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-myDreamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB4428473739EBA7905958B1 /* Pods-myDreamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDreamUITests.release.xcconfig"; path = "Target Support Files/Pods-myDreamUITests/Pods-myDreamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EDAA2E95B5233AF83190CEEE /* Pods-myDream-myDreamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-myDream-myDreamUITests.release.xcconfig"; path = "Target Support Files/Pods-myDream-myDreamUITests/Pods-myDream-myDreamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F963111EB80339BEEA4CBFFD /* Pods_myDream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_myDream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E3DA49C29D734DE0022EC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAD1B9B9714EC96BFE6FD1D9 /* Pods_myDream.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3DA4B229D734E00022EC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FF3F6EA2D6EDD43E937E0A2 /* libPods-myDreamTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3DA4BC29D734E00022EC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				537A6E5A54E6287CC572E79D /* libPods-myDreamUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D01407257876B7321EA5698 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F963111EB80339BEEA4CBFFD /* Pods_myDream.framework */,
+				C81694B74995EA82ACBAB217 /* libPods-myDreamTests.a */,
+				3CAFAC5336204ED7AC9C05DF /* libPods-myDreamUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E3C04562A02E43900156AAB /* semboller */ = {
+			isa = PBXGroup;
+			children = (
+				8ED079C829F330FD00BA5FCA /* SembolCollectionViewCell.swift */,
+				8E62F36A2A0C1448006B4DAB /* favoriSembollerViewController.swift */,
+				8ED079CA29F336AF00BA5FCA /* SembolAramaViewController.swift */,
+				8ED079C629F32C6800BA5FCA /* RuyaSembollColletionViewViewController.swift */,
+			);
+			path = semboller;
+			sourceTree = "<group>";
+		};
+		8E3DA49629D734DE0022EC31 = {
+			isa = PBXGroup;
+			children = (
+				8EDB5D782A575FEC00A494E7 /* symbols.json */,
+				8EDB5D7D2A5760B900A494E7 /* DataManager.swift */,
+				8EDB5D7A2A57606100A494E7 /* models */,
+				8E3DA4A129D734DE0022EC31 /* myDream */,
+				8E3DA4B829D734E00022EC31 /* myDreamTests */,
+				8E3DA4C229D734E00022EC31 /* myDreamUITests */,
+				8E3DA4A029D734DE0022EC31 /* Products */,
+				B51D3AD9CD8E169E4C37F8D7 /* Pods */,
+				7D01407257876B7321EA5698 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		8E3DA4A029D734DE0022EC31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E3DA49F29D734DE0022EC31 /* myDream.app */,
+				8E3DA4B529D734E00022EC31 /* myDreamTests.xctest */,
+				8E3DA4BF29D734E00022EC31 /* myDreamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E3DA4A129D734DE0022EC31 /* myDream */ = {
+			isa = PBXGroup;
+			children = (
+				8E4A55D62A5B69EC008F210B /* myDreamRelease.entitlements */,
+				8ED145E62A5224ED006C1B94 /* myDream.entitlements */,
+				8E3DA4A229D734DE0022EC31 /* AppDelegate.swift */,
+				8EF7A22D29F3FEA700318615 /* UIImageExt.swift */,
+				8E3DA4A429D734DE0022EC31 /* SceneDelegate.swift */,
+				8E97B4ED29D7619300213549 /* Login Page */,
+				8E5DEA1729DB65F1000CAD41 /* RuyaModelleri.swift */,
+				8EC8E08729EDFC9A0021305A /* HomePage */,
+				8E3C04562A02E43900156AAB /* semboller */,
+				8E50C28729EFC31400806F00 /* YeniRüyaKaydet */,
+				8E3DA4A829D734DE0022EC31 /* Main.storyboard */,
+				8EECF9562A426A7900D53192 /* merakEdilenlerViewController.swift */,
+				84C6D5292A053C0F00B37B20 /* SSSViewController.swift */,
+				84C6D5272A053BD300B37B20 /* SSSTableViewCell.swift */,
+				8E676A262A04222200CDE8F9 /* LauchScreenViewController.swift */,
+				8E7424E229E58E510062D391 /* DreamSaveViewController.swift */,
+				8E3DA4AB29D734E00022EC31 /* Assets.xcassets */,
+				8E3DA4DD29D7396B0022EC31 /* Fonts */,
+				8E3DA4AD29D734E00022EC31 /* LaunchScreen.storyboard */,
+				8E3DA4B029D734E00022EC31 /* Info.plist */,
+				8E3DA4D229D735300022EC31 /* GoogleService-Info.plist */,
+				8E5DEA1429DB65D3000CAD41 /* myDream.xcdatamodeld */,
+			);
+			path = myDream;
+			sourceTree = "<group>";
+		};
+		8E3DA4B829D734E00022EC31 /* myDreamTests */ = {
+			isa = PBXGroup;
+			children = (
+				8E3DA4B929D734E00022EC31 /* myDreamTests.swift */,
+			);
+			path = myDreamTests;
+			sourceTree = "<group>";
+		};
+		8E3DA4C229D734E00022EC31 /* myDreamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8E3DA4C329D734E00022EC31 /* myDreamUITests.swift */,
+				8E3DA4C529D734E00022EC31 /* myDreamUITestsLaunchTests.swift */,
+			);
+			path = myDreamUITests;
+			sourceTree = "<group>";
+		};
+		8E3DA4DD29D7396B0022EC31 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8E3DA4E029D7399F0022EC31 /* Poppins-Black.ttf */,
+				8E3DA4E529D7399F0022EC31 /* Poppins-BlackItalic.ttf */,
+				8E3DA4EE29D7399F0022EC31 /* Poppins-Bold.ttf */,
+				8E3DA4DE29D7399F0022EC31 /* Poppins-BoldItalic.ttf */,
+				8E3DA4DF29D7399F0022EC31 /* Poppins-ExtraBold.ttf */,
+				8E3DA4E429D7399F0022EC31 /* Poppins-ExtraBoldItalic.ttf */,
+				8E3DA4E629D7399F0022EC31 /* Poppins-ExtraLight.ttf */,
+				8E3DA4E129D7399F0022EC31 /* Poppins-ExtraLightItalic.ttf */,
+				8E3DA4EB29D7399F0022EC31 /* Poppins-Italic.ttf */,
+				8E3DA4ED29D7399F0022EC31 /* Poppins-Light.ttf */,
+				8E3DA4EC29D7399F0022EC31 /* Poppins-LightItalic.ttf */,
+				8E3DA4E329D7399F0022EC31 /* Poppins-Medium.ttf */,
+				8E3DA4E729D7399F0022EC31 /* Poppins-MediumItalic.ttf */,
+				8E3DA4E829D7399F0022EC31 /* Poppins-Regular.ttf */,
+				8E3DA4E229D7399F0022EC31 /* Poppins-SemiBold.ttf */,
+				8E3DA4EF29D7399F0022EC31 /* Poppins-SemiBoldItalic.ttf */,
+				8E3DA4E929D7399F0022EC31 /* Poppins-Thin.ttf */,
+				8E3DA4EA29D7399F0022EC31 /* Poppins-ThinItalic.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		8E50C28729EFC31400806F00 /* YeniRüyaKaydet */ = {
+			isa = PBXGroup;
+			children = (
+				8E50C28829EFC4EE00806F00 /* dreamSave.swift */,
+				8E50C28A29EFC57C00806F00 /* recordedDreams.swift */,
+			);
+			name = "YeniRüyaKaydet";
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8E97B4ED29D7619300213549 /* Login Page */ = {
+			isa = PBXGroup;
+			children = (
+				8E3DA4A629D734DE0022EC31 /* RegisterPage.swift */,
+				8E97B4EE29D761D400213549 /* LoginPageViewController.swift */,
+			);
+			path = "Login Page";
+			sourceTree = "<group>";
+		};
+		8EC8E08729EDFC9A0021305A /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				8E5DEA1229DB632F000CAD41 /* ProfilimViewController.swift */,
+				8E5DEA1D29DB6C10000CAD41 /* tabbarController.swift */,
+				8E97B4F029D76AB100213549 /* SecilenMenuViewController.swift */,
+			);
+			name = HomePage;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8EDB5D7A2A57606100A494E7 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8EDB5D7B2A57608400A494E7 /* SymbolsModel.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		B51D3AD9CD8E169E4C37F8D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0077044E87621B5F99654171 /* Pods-myDream.debug.xcconfig */,
+				C455F48746594337C6D918BE /* Pods-myDream.release.xcconfig */,
+				C06D9515F4277E7F611D4F7D /* Pods-myDream-myDreamUITests.debug.xcconfig */,
+				EDAA2E95B5233AF83190CEEE /* Pods-myDream-myDreamUITests.release.xcconfig */,
+				9EE59B59430C1F8B3DE69407 /* Pods-myDreamTests.debug.xcconfig */,
+				38026D2E578A3454E9A76A09 /* Pods-myDreamTests.release.xcconfig */,
+				1660F7E0FCD67C77971DEB84 /* Pods-myDreamUITests.debug.xcconfig */,
+				CB4428473739EBA7905958B1 /* Pods-myDreamUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E3DA49E29D734DE0022EC31 /* myDream */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3DA4C929D734E00022EC31 /* Build configuration list for PBXNativeTarget "myDream" */;
+			buildPhases = (
+				E5ED70C3A67BC76CD86C9094 /* [CP] Check Pods Manifest.lock */,
+				8E3DA49B29D734DE0022EC31 /* Sources */,
+				8E3DA49C29D734DE0022EC31 /* Frameworks */,
+				8E3DA49D29D734DE0022EC31 /* Resources */,
+				6CB88612D085BA47F39D1A41 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myDream;
+			productName = myDream;
+			productReference = 8E3DA49F29D734DE0022EC31 /* myDream.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8E3DA4B429D734E00022EC31 /* myDreamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3DA4CC29D734E00022EC31 /* Build configuration list for PBXNativeTarget "myDreamTests" */;
+			buildPhases = (
+				FC6A9480E4BDE284DEEBF778 /* [CP] Check Pods Manifest.lock */,
+				8E3DA4B129D734E00022EC31 /* Sources */,
+				8E3DA4B229D734E00022EC31 /* Frameworks */,
+				8E3DA4B329D734E00022EC31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3DA4B729D734E00022EC31 /* PBXTargetDependency */,
+			);
+			name = myDreamTests;
+			productName = myDreamTests;
+			productReference = 8E3DA4B529D734E00022EC31 /* myDreamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8E3DA4BE29D734E00022EC31 /* myDreamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3DA4CF29D734E00022EC31 /* Build configuration list for PBXNativeTarget "myDreamUITests" */;
+			buildPhases = (
+				B9E94B67F2ABA981C2A3A373 /* [CP] Check Pods Manifest.lock */,
+				8E3DA4BB29D734E00022EC31 /* Sources */,
+				8E3DA4BC29D734E00022EC31 /* Frameworks */,
+				8E3DA4BD29D734E00022EC31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8E3DA4C129D734E00022EC31 /* PBXTargetDependency */,
+			);
+			name = myDreamUITests;
+			productName = myDreamUITests;
+			productReference = 8E3DA4BF29D734E00022EC31 /* myDreamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E3DA49729D734DE0022EC31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8E3DA49E29D734DE0022EC31 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8E3DA4B429D734E00022EC31 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8E3DA49E29D734DE0022EC31;
+					};
+					8E3DA4BE29D734E00022EC31 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8E3DA49E29D734DE0022EC31;
+					};
+				};
+			};
+			buildConfigurationList = 8E3DA49A29D734DE0022EC31 /* Build configuration list for PBXProject "myDream" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				tr,
+				en,
+			);
+			mainGroup = 8E3DA49629D734DE0022EC31;
+			productRefGroup = 8E3DA4A029D734DE0022EC31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E3DA49E29D734DE0022EC31 /* myDream */,
+				8E3DA4B429D734E00022EC31 /* myDreamTests */,
+				8E3DA4BE29D734E00022EC31 /* myDreamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E3DA49D29D734DE0022EC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3DA4AF29D734E00022EC31 /* LaunchScreen.storyboard in Resources */,
+				8E3DA4D329D735300022EC31 /* GoogleService-Info.plist in Resources */,
+				8E3DA4AC29D734E00022EC31 /* Assets.xcassets in Resources */,
+				8EDB5D792A575FEC00A494E7 /* symbols.json in Resources */,
+				8E3DA4AA29D734DE0022EC31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3DA4B329D734E00022EC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3DA4BD29D734E00022EC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6CB88612D085BA47F39D1A41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myDream/Pods-myDream-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-myDream/Pods-myDream-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-myDream/Pods-myDream-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9E94B67F2ABA981C2A3A373 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myDreamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5ED70C3A67BC76CD86C9094 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myDream-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6A9480E4BDE284DEEBF778 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-myDreamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E3DA49B29D734DE0022EC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8ED079C929F330FD00BA5FCA /* SembolCollectionViewCell.swift in Sources */,
+				8EDB5D7C2A57608400A494E7 /* SymbolsModel.swift in Sources */,
+				84C6D5282A053BD300B37B20 /* SSSTableViewCell.swift in Sources */,
+				8E5DEA1329DB632F000CAD41 /* ProfilimViewController.swift in Sources */,
+				8E62F36B2A0C1448006B4DAB /* favoriSembollerViewController.swift in Sources */,
+				8EDB5D7E2A5760B900A494E7 /* DataManager.swift in Sources */,
+				8E3DA4A729D734DE0022EC31 /* RegisterPage.swift in Sources */,
+				8E97B4EF29D761D400213549 /* LoginPageViewController.swift in Sources */,
+				8EECF9572A426A7900D53192 /* merakEdilenlerViewController.swift in Sources */,
+				8E3DA4A329D734DE0022EC31 /* AppDelegate.swift in Sources */,
+				8E97B4F129D76AB100213549 /* SecilenMenuViewController.swift in Sources */,
+				8E676A272A04222200CDE8F9 /* LauchScreenViewController.swift in Sources */,
+				8E5DEA1E29DB6C10000CAD41 /* tabbarController.swift in Sources */,
+				8E50C28929EFC4EE00806F00 /* dreamSave.swift in Sources */,
+				8E5DEA1829DB65F1000CAD41 /* RuyaModelleri.swift in Sources */,
+				8E5DEA1629DB65D3000CAD41 /* myDream.xcdatamodeld in Sources */,
+				8ED079C729F32C6800BA5FCA /* RuyaSembollColletionViewViewController.swift in Sources */,
+				8E7424E329E58E510062D391 /* DreamSaveViewController.swift in Sources */,
+				8E50C28B29EFC57C00806F00 /* recordedDreams.swift in Sources */,
+				8ED079CB29F336AF00BA5FCA /* SembolAramaViewController.swift in Sources */,
+				8E3DA4A529D734DE0022EC31 /* SceneDelegate.swift in Sources */,
+				8EF7A22E29F3FEA700318615 /* UIImageExt.swift in Sources */,
+				84C6D52A2A053C0F00B37B20 /* SSSViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3DA4B129D734E00022EC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3DA4BA29D734E00022EC31 /* myDreamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E3DA4BB29D734E00022EC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E3DA4C629D734E00022EC31 /* myDreamUITestsLaunchTests.swift in Sources */,
+				8E3DA4C429D734E00022EC31 /* myDreamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E3DA4B729D734E00022EC31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E3DA49E29D734DE0022EC31 /* myDream */;
+			targetProxy = 8E3DA4B629D734E00022EC31 /* PBXContainerItemProxy */;
+		};
+		8E3DA4C129D734E00022EC31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E3DA49E29D734DE0022EC31 /* myDream */;
+			targetProxy = 8E3DA4C029D734E00022EC31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8E3DA4A829D734DE0022EC31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EDB5D6B2A5754BE00A494E7 /* Base */,
+				8EDB5D752A575DB700A494E7 /* tr */,
+				8EDB5D762A575DD500A494E7 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8E3DA4AD29D734E00022EC31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8E3DA4AE29D734E00022EC31 /* Base */,
+				8EDB5D772A575DD600A494E7 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8E3DA4C729D734E00022EC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E3DA4C829D734E00022EC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E3DA4CA29D734E00022EC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0077044E87621B5F99654171 /* Pods-myDream.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = myDream/myDream.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = TFALV8UYMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myDream/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Dreams";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Merhaba! My Dreams uygulamasını indirdiğiniz için teşekkür ederiz. Bu uygulama, rüyalarınızı hatırlamanız, analiz etmeniz ve paylaşmanız için size yardımcı olmak amacıyla tasarlanmıştır.\n\nUygulamamız, bazı izleme teknolojilerini kullanarak size daha iyi bir deneyim sunabilmek ve hizmetlerimizi geliştirebilmek için verilerinizi toplamaktadır.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = sengun.myDreams;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8E3DA4CB29D734E00022EC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C455F48746594337C6D918BE /* Pods-myDream.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = myDream/myDreamRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_TEAM = TFALV8UYMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = myDream/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "My Dreams";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "Merhaba! My Dreams uygulamasını indirdiğiniz için teşekkür ederiz. Bu uygulama, rüyalarınızı hatırlamanız, analiz etmeniz ve paylaşmanız için size yardımcı olmak amacıyla tasarlanmıştır.\n\nUygulamamız, bazı izleme teknolojilerini kullanarak size daha iyi bir deneyim sunabilmek ve hizmetlerimizi geliştirebilmek için verilerinizi toplamaktadır.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = sengun.myDreams;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8E3DA4CD29D734E00022EC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE59B59430C1F8B3DE69407 /* Pods-myDreamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFALV8UYMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sengun.myDreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myDream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myDream";
+			};
+			name = Debug;
+		};
+		8E3DA4CE29D734E00022EC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38026D2E578A3454E9A76A09 /* Pods-myDreamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFALV8UYMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sengun.myDreamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myDream.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/myDream";
+			};
+			name = Release;
+		};
+		8E3DA4D029D734E00022EC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1660F7E0FCD67C77971DEB84 /* Pods-myDreamUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFALV8UYMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sengun.myDreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myDream;
+			};
+			name = Debug;
+		};
+		8E3DA4D129D734E00022EC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB4428473739EBA7905958B1 /* Pods-myDreamUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFALV8UYMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sengun.myDreamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myDream;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E3DA49A29D734DE0022EC31 /* Build configuration list for PBXProject "myDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3DA4C729D734E00022EC31 /* Debug */,
+				8E3DA4C829D734E00022EC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3DA4C929D734E00022EC31 /* Build configuration list for PBXNativeTarget "myDream" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3DA4CA29D734E00022EC31 /* Debug */,
+				8E3DA4CB29D734E00022EC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3DA4CC29D734E00022EC31 /* Build configuration list for PBXNativeTarget "myDreamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3DA4CD29D734E00022EC31 /* Debug */,
+				8E3DA4CE29D734E00022EC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3DA4CF29D734E00022EC31 /* Build configuration list for PBXNativeTarget "myDreamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E3DA4D029D734E00022EC31 /* Debug */,
+				8E3DA4D129D734E00022EC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8E5DEA1429DB65D3000CAD41 /* myDream.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8E5DEA1529DB65D3000CAD41 /* myDream.xcdatamodel */,
+			);
+			currentVersion = 8E5DEA1529DB65D3000CAD41 /* myDream.xcdatamodel */;
+			path = myDream.xcdatamodeld;
+			sourceTree = "<group>";
+			usesTabs = 0;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8E3DA49729D734DE0022EC31 /* Project object */;
+}

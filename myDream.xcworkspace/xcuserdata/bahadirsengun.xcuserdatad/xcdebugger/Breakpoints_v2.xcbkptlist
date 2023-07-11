@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "A8602483-0563-474A-A7C9-4E93896DE051"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6D99D9FD-B76A-4791-9B99-701C4B05C668"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SecilenMenuViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1594"
+            endingLineNumber = "1594"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6827D539-CA1A-47DB-A7C2-645B392CCE53"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "recordedDreams.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B87B35A-8356-4C22-9F11-85DC8F8E9CB8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "recordedDreams.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "addButtonClicked()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6B87B35A-8356-4C22-9F11-85DC8F8E9CB8 - 15186bffb08293e4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "myDream.recordedDreams.addButtonClicked() -&gt; ()"
+                  moduleName = "myDream"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bahadirsengun/Software/myDream/recordedDreams.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "6B87B35A-8356-4C22-9F11-85DC8F8E9CB8 - 178e58fecacb584f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "myDream.recordedDreams.addbutton(Any) -&gt; ()"
+                  moduleName = "myDream"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bahadirsengun/Software/myDream/recordedDreams.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "6B87B35A-8356-4C22-9F11-85DC8F8E9CB8 - eb8b625222dd8525"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "myDream.recordedDreams.addbutton(__C.UIButton) -&gt; ()"
+                  moduleName = "myDream"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bahadirsengun/Software/myDream/recordedDreams.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6B205F1A-2791-4B1A-8268-7BB05DECB288"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "recordedDreams.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "recordedDreams"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "6B205F1A-2791-4B1A-8268-7BB05DECB288 - 178e58fecacb584f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "myDream.recordedDreams.addbutton(Any) -&gt; ()"
+                  moduleName = "myDream"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bahadirsengun/Software/myDream/recordedDreams.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "56">
+               </Location>
+               <Location
+                  uuid = "6B205F1A-2791-4B1A-8268-7BB05DECB288 - eb8b625222dd8525"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "myDream.recordedDreams.addbutton(__C.UIButton) -&gt; ()"
+                  moduleName = "myDream"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bahadirsengun/Software/myDream/recordedDreams.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "143"
+                  endingLineNumber = "143"
+                  offsetFromSymbolStart = "56">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F699AD2C-316B-4F4E-B2CF-EBE1AFE60828"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "myDream/Login Page/LoginPageViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "127"
+            endingLineNumber = "127"
+            landmarkName = "loginPageLoginButton(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A07850B0-F3AA-4C74-93B9-F7109A4B126F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "myDream/LauchScreenViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A07850B0-F3AA-4C74-93B9-F7109A4B126F - 1a5172489b8a00c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "myDream.LauchScreenViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "myDream"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bahadirsengun/Software/myDream/myDream/LauchScreenViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "640">
+               </Location>
+               <Location
+                  uuid = "A07850B0-F3AA-4C74-93B9-F7109A4B126F - 1a5172489b8a00c9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "myDream.LauchScreenViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "myDream"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bahadirsengun/Software/myDream/myDream/LauchScreenViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "628">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
