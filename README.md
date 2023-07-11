@@ -1,4 +1,4 @@
-# MyDreamspProject
+# MyDreamsProject
 
 Projenin Amacı: My Dreams, insanların rüyalarını yazıp kaydedebildikleri ve rüyalarındaki sembollerin anlamlarını bulabildikleri interaktif bir uygulamadır. Rüya yorumlama sürecine yapay zeka teknolojisini dahil ederek, insanların rüyalarının derinliklerine inmelerini ve rüyalarının onlara vermek istediği gerçek mesajları anlamalarını sağlamayı hedeflemektedir.
 
